@@ -1,0 +1,63 @@
+.App {
+  min-height: 100vh;
+  background-color: #111111;
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  margin: 0;
+}
+
+.banner {
+  height: 450px;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: 12%;
+  display: flex;
+  align-items: flex-end;
+  color: white;
+}
+
+.banner-image {
+  margin-right: 30px;
+  width: 300px;
+  height: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner h1 {
+  font-weight: 400;
+}
+
+.show-page {
+  flex: 1;
+  background-size: cover;
+  background-position-x: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 50px;
+  background-repeat: no-repeat;
+}
+
+.show-page .content {
+  width: 90%;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.bar {
+  margin: 20px 0;
+  background-color: #222;
+  height: 1px;
+}
+
+.language-container {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #bbb;
+}
